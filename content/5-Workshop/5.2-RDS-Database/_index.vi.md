@@ -28,7 +28,7 @@ Dưới đây là phần **Minh chứng triển khai** cấu hình Amazon RDS Po
    - Mục **Public access**: Chọn **No** (Chỉ cho phép truy cập nội bộ và qua Security Group chỉ định để tăng tính bảo mật).
 7. Nhấn **Create database** và đợi quá trình khởi tạo hoàn tất. Khi hoàn thành, bạn sẽ thấy thông tin Endpoint & Port hiển thị:
 
-![Chi tiết Endpoint RDS](/images/5.2_1.png)
+![Chi tiết Endpoint RDS](/images/5-Workshop/5.2-Prerequisite/rds_endpoint_details.png)
 
 ---
 
@@ -39,8 +39,8 @@ Nhằm đảm bảo an toàn, chúng ta chỉ cho phép máy chủ ứng dụng 
    - **Type**: `PostgreSQL` (Port 5432)
    - **Source**: Chọn địa chỉ IP tĩnh hoặc Custom Security Group của App Server (DigitalOcean Server IP). 
 
-![Cấu hình Security Group cho RDS](/images/5.2_2.png)
-![Chi tiết Rule Security Group](/images/5.2_3.png)
+![Cấu hình Security Group cho RDS](/images/5-Workshop/5.2-Prerequisite/rds_security_groups.png)
+![Chi tiết Rule Security Group](/images/5-Workshop/5.2-Prerequisite/novatech_db_security_group.png)
 
 ---
 

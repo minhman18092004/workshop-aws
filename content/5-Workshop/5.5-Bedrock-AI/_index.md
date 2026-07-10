@@ -22,7 +22,7 @@ By default, generative AI models on Bedrock are disabled due to licensing and bi
 4. Locate **Anthropic Claude 3** models (e.g., Claude 3 Haiku) and check their boxes.
 5. Click **Request model access** and wait for approval (takes 1 - 5 minutes). The status should change to **Access granted**:
 
-![Request Bedrock Model Access](/images/5.5_1.png)
+![Request Bedrock Model Access](/images/5-Workshop/5.5-Policy/bedrock_model_access.png)
 
 ---
 

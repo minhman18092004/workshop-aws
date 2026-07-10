@@ -38,4 +38,5 @@ During my internship, I participated in two events. Each one was a memorable exp
 **Date & Time:** 09:00, July 4, 2026
 
 **Location:** Online
+
 **Role:** Attendee

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi" class="js csstransforms3d">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.164.0">
@@ -15,21 +15,21 @@
     <title>5.7. Dọn dẹp tài nguyên :: Báo cáo thực tập</title>
 
     
-    <link href="/css/nucleus.css?1783658188" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1783658188" rel="stylesheet">
-    <link href="/css/hybrid.css?1783658188" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1783658188" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1783658188" rel="stylesheet">
-    <link href="/css/auto-complete.css?1783658188" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1783658188" rel="stylesheet">
-    <link href="/css/theme.css?1783658188" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1783658188" rel="stylesheet">
+    <link href="/css/nucleus.css?1783692874" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1783692874" rel="stylesheet">
+    <link href="/css/hybrid.css?1783692874" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1783692874" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1783692874" rel="stylesheet">
+    <link href="/css/auto-complete.css?1783692874" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1783692874" rel="stylesheet">
+    <link href="/css/theme.css?1783692874" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1783692874" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1783658188" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1783692874" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1783658188"></script>
+    <script src="/js/jquery-3.3.1.min.js?1783692874"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1783658188"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1783658188"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1783692874"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1783692874"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/\/vi";
+        var baseurl = "https:\/\/main.d3dnrycpt9rkh6.amplifyapp.com\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1783658188"></script>
+<script type="text/javascript" src="/js/search.js?1783692874"></script>
  
   </div>
 
@@ -418,6 +418,24 @@
   </a>
    
 </li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.3-even3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/vi/4-eventparticipated/4.3-even3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
      
   </ul>
   
@@ -640,14 +658,14 @@
                        
                 <option
                   id="en"
-                  value="http://localhost:1313/5-workshop/5.7-cleanup/"
+                  value="/5-workshop/5.7-cleanup/"
                 >
                   English
                 </option>
                             
                 <option
                   id="vi"
-                  value="http://localhost:1313/vi/5-workshop/5.7-cleanup/"
+                  value="/vi/5-workshop/5.7-cleanup/"
                   selected
                 >
                   Tiếng Việt
@@ -794,8 +812,8 @@
 <li>Bỏ tích chọn mục <strong>Create final snapshot</strong> (tạo bản sao lưu cuối cùng) và xác nhận đồng ý xóa.</li>
 <li>Gõ chữ <code>delete me</code> vào ô xác nhận để tiến hành xóa database.</li>
 </ol>
-<p><img src="/images/5.7_1.png" alt="Xác nhận xóa RDS Database">
-<img src="/images/5.7_2.png" alt="Trạng thái đang xóa RDS Database"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/rds_delete_confirm.png" alt="Xác nhận xóa RDS Database">
+<img src="/images/5-Workshop/5.6-Cleanup/rds_delete.png" alt="Trạng thái đang xóa RDS Database"></p>
 <h4 id="2-xóa-các-s3-buckets">2. Xóa các S3 Buckets</h4>
 <ol>
 <li>Truy cập dịch vụ <strong>Amazon S3 $\rightarrow$ Buckets</strong>.</li>
@@ -806,16 +824,16 @@
 </li>
 <li>
 <p>Nhập <code>permanently delete</code> để xác nhận dọn dẹp đối tượng.</p>
-<p><img src="/images/5.7_3.png" alt="Xác nhận dọn dẹp S3 Bucket">
-<img src="/images/5.7_4.png" alt="Dọn dẹp S3 Bucket thành công"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/s3_empty_confirm.png" alt="Xác nhận dọn dẹp S3 Bucket">
+<img src="/images/5-Workshop/5.6-Cleanup/s3_empty_success.png" alt="Dọn dẹp S3 Bucket thành công"></p>
 </li>
 <li>
 <p>Quay lại trang danh sách buckets, chọn bucket và nhấn nút <strong>Delete</strong>.</p>
 </li>
 <li>
 <p>Nhập tên của bucket để xác nhận xóa vĩnh viễn.</p>
-<p><img src="/images/5.7_5.png" alt="Xác nhận xóa S3 Bucket">
-<img src="/images/5.7_6.png" alt="Xóa S3 Bucket thành công"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/s3_delete_confirm.png" alt="Xác nhận xóa S3 Bucket">
+<img src="/images/5-Workshop/5.6-Cleanup/s3_delete_success.png" alt="Xóa S3 Bucket thành công"></p>
 </li>
 </ul>
 </li>
@@ -830,8 +848,8 @@
 </li>
 <li>
 <p>Chọn nút <strong>Delete user pool</strong> ở góc phải và làm theo hướng dẫn xác nhận xóa để hủy bỏ hệ thống định danh người dùng.</p>
-<p><img src="/images/5.7_7.png" alt="Xác nhận xóa Cognito User Pool">
-<img src="/images/5.7_8.png" alt="Xóa Cognito User Pool thành công"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_confirm.png" alt="Xác nhận xóa Cognito User Pool">
+<img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png" alt="Xóa Cognito User Pool thành công"></p>
 </li>
 </ol>
 <h4 id="4-vô-hiệu-hóa-và-xóa-cloudfront-distribution">4. Vô hiệu hóa và xóa CloudFront Distribution</h4>
@@ -845,16 +863,16 @@
 </li>
 <li>
 <p>Nhấp chọn nút <strong>Disable</strong> và xác nhận để vô hiệu hóa cổng phân phối này trước khi tiến hành xóa:</p>
-<p><img src="/images/5.7_9.png" alt="Vô hiệu hóa CloudFront Distribution"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_disable_distribution.png" alt="Vô hiệu hóa CloudFront Distribution"></p>
 </li>
 <li>
 <p>Khi trạng thái phân phối đã được vô hiệu hóa thành công, bạn sẽ nhận được thông báo sẵn sàng xóa:</p>
-<p><img src="/images/5.7_10.png" alt="Trạng thái vô hiệu hóa hoàn tất"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_disabled_status.png" alt="Trạng thái vô hiệu hóa hoàn tất"></p>
 </li>
 <li>
 <p>Tích chọn Distribution, nhấn nút <strong>Delete</strong> và chọn <strong>Delete</strong> trên popup xác nhận để gỡ bỏ hoàn toàn:</p>
-<p><img src="/images/5.7_11.png" alt="Xác nhận xóa Distribution">
-<img src="/images/5.7_12.png" alt="Xóa Distribution thành công"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_delete_distribution_confirm.png" alt="Xác nhận xóa Distribution">
+<img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png" alt="Xóa Distribution thành công"></p>
 </li>
 </ol>
 
@@ -1202,6 +1220,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1397,19 +1431,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1783658188"></script>
-    <script src="/js/perfect-scrollbar.min.js?1783658188"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1783658188"></script>
-    <script src="/js/jquery.sticky.js?1783658188"></script>
-    <script src="/js/featherlight.min.js?1783658188"></script>
-    <script src="/js/highlight.pack.js?1783658188"></script>
+    <script src="/js/clipboard.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1783692874"></script>
+    <script src="/js/jquery.sticky.js?1783692874"></script>
+    <script src="/js/featherlight.min.js?1783692874"></script>
+    <script src="/js/highlight.pack.js?1783692874"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1783658188"></script>
-    <script src="/js/learn.js?1783658188"></script>
-    <script src="/js/hugo-learn.js?1783658188"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1783692874"></script>
+    <script src="/js/learn.js?1783692874"></script>
+    <script src="/js/hugo-learn.js?1783692874"></script>
 
-    <link href="/mermaid/mermaid.css?1783658188" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1783658188"></script>
+    <link href="/mermaid/mermaid.css?1783692874" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1783692874"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

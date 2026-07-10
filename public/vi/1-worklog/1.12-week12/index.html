@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi" class="js csstransforms3d">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.164.0">
@@ -15,21 +15,21 @@
     <title>Worklog Tuần 12 :: Báo cáo thực tập</title>
 
     
-    <link href="/css/nucleus.css?1783656546" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1783656546" rel="stylesheet">
-    <link href="/css/hybrid.css?1783656546" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1783656546" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1783656546" rel="stylesheet">
-    <link href="/css/auto-complete.css?1783656546" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1783656546" rel="stylesheet">
-    <link href="/css/theme.css?1783656546" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1783656546" rel="stylesheet">
+    <link href="/css/nucleus.css?1783692874" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1783692874" rel="stylesheet">
+    <link href="/css/hybrid.css?1783692874" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1783692874" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1783692874" rel="stylesheet">
+    <link href="/css/auto-complete.css?1783692874" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1783692874" rel="stylesheet">
+    <link href="/css/theme.css?1783692874" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1783692874" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1783656546" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1783692874" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1783656546"></script>
+    <script src="/js/jquery-3.3.1.min.js?1783692874"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1783656546"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1783656546"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1783692874"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1783692874"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/\/vi";
+        var baseurl = "https:\/\/main.d3dnrycpt9rkh6.amplifyapp.com\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1783656546"></script>
+<script type="text/javascript" src="/js/search.js?1783692874"></script>
  
   </div>
 
@@ -418,6 +418,24 @@
   </a>
    
 </li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.3-even3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/vi/4-eventparticipated/4.3-even3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
      
   </ul>
   
@@ -640,14 +658,14 @@
                        
                 <option
                   id="en"
-                  value="http://localhost:1313/1-worklog/1.12-week12/"
+                  value="/1-worklog/1.12-week12/"
                 >
                   English
                 </option>
                             
                 <option
                   id="vi"
-                  value="http://localhost:1313/vi/1-worklog/1.12-week12/"
+                  value="/vi/1-worklog/1.12-week12/"
                   selected
                 >
                   Tiếng Việt
@@ -786,14 +804,11 @@
 
 
 
-	<p>{% notice warning %}
-⚠️ <strong>Lưu ý:</strong> Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng <strong>không sao chép nguyên văn</strong> cho bài báo cáo của bạn kể cả warning này.
-{% /notice %}</p>
-<h3 id="mục-tiêu-tuần-12">Mục tiêu tuần 12:</h3>
+	<h3 id="mục-tiêu-tuần-12">Mục tiêu tuần 12:</h3>
 <ul>
-<li>Cấu hình cơ sở hạ tầng giám sát Prometheus và Grafana.</li>
-<li>Triển khai quy trình GitOps với một kho lưu trữ cấu hình riêng biệt.</li>
-<li>Xác minh đồng bộ GitOps, tính năng self-healing và chuẩn bị báo cáo tổng kết.</li>
+<li>Thiết lập giám sát hệ thống bằng Prometheus và Grafana.</li>
+<li>Xác thực luồng GitOps và triển khai cuối cùng.</li>
+<li>Khép lại dự án bằng cấu hình ổn định, sẵn sàng cho báo cáo.</li>
 </ul>
 <h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:</h3>
 <table>
@@ -809,48 +824,46 @@
 	<tbody>
 			<tr>
 					<td>2</td>
-					<td>- Bật endpoint Spring Boot Actuator Prometheus và cấu hình xuất các chỉ số (metrics).</td>
-					<td>27/10/2025</td>
-					<td>27/10/2025</td>
-					<td><a href="https://prometheus.io/docs/introduction/overview/">https://prometheus.io/docs/introduction/overview/</a></td>
+					<td>- Bật endpoint Prometheus của Spring Boot Actuator và xuất các chỉ số ứng dụng.<br>- Xác nhận backend đã sẵn sàng để hệ thống giám sát thu thập dữ liệu.</td>
+					<td>07/07/2026</td>
+					<td>07/07/2026</td>
+					<td>content/1-Worklog/1.12-Week12/</td>
 			</tr>
 			<tr>
 					<td>3</td>
-					<td>- Triển khai Prometheus và Grafana qua Docker Compose. Kết nối dashboard Grafana để trực quan hóa dung lượng bộ nhớ JVM, luồng xử lý và HTTP request.</td>
-					<td>28/10/2025</td>
-					<td>28/10/2025</td>
-					<td><a href="https://grafana.com/docs/">https://grafana.com/docs/</a></td>
+					<td>- Triển khai Prometheus và Grafana rồi kết nối nguồn metrics từ backend.<br>- Tạo lớp giám sát cơ bản cho toàn hệ thống.</td>
+					<td>08/07/2026</td>
+					<td>08/07/2026</td>
+					<td>content/1-Worklog/1.12-Week12/</td>
 			</tr>
 			<tr>
 					<td>4</td>
-					<td>- Tạo một repo Git chứa cấu hình triển khai riêng biệt (<code>novatech-deploy</code>) chỉ chứa file cấu hình YAML/Compose.</td>
-					<td>29/10/2025</td>
-					<td>29/10/2025</td>
-					<td><a href="https://opengitops.org/">https://opengitops.org/</a></td>
+					<td>- Xây dựng các panel Grafana cho bộ nhớ JVM, thread và lưu lượng HTTP request.<br>- Kiểm tra dashboard có phản ánh đúng hành vi runtime hay không.</td>
+					<td>09/07/2026</td>
+					<td>09/07/2026</td>
+					<td>content/1-Worklog/1.12-Week12/</td>
 			</tr>
 			<tr>
 					<td>5</td>
-					<td>- Cài đặt Agent GitOps (hoặc script tự động kéo) trên VPS giám sát repo cấu hình để thực hiện pull-based deployment.</td>
-					<td>30/10/2025</td>
-					<td>30/10/2025</td>
-					<td></td>
+					<td>- Rà soát đồng bộ GitOps và xác nhận thay đổi triển khai vẫn khớp với trạng thái Git.<br>- Kiểm tra tính nhất quán cấu hình sau khi hoàn tất giám sát.</td>
+					<td>10/07/2026</td>
+					<td>10/07/2026</td>
+					<td>content/1-Worklog/1.12-Week12/</td>
 			</tr>
 			<tr>
 					<td>6</td>
-					<td>- Kiểm tra tính năng self-healing của GitOps bằng cách thay đổi container trên server thủ công và xác thực Agent tự động khôi phục cấu hình khớp với Git.</td>
-					<td>31/10/2025</td>
-					<td>31/10/2025</td>
-					<td></td>
+					<td>- Thực hiện kiểm tra hệ thống cuối cùng, thu thập các bằng chứng cuối và chuẩn bị ghi chú cho báo cáo.<br>- Kết quả: dự án được khép lại với các bước kiểm tra giám sát và triển khai đã hoàn tất.</td>
+					<td>13/07/2026</td>
+					<td>13/07/2026</td>
+					<td>content/1-Worklog/1.12-Week12/</td>
 			</tr>
 	</tbody>
 </table>
 <h3 id="kết-quả-đạt-được-tuần-12">Kết quả đạt được tuần 12:</h3>
 <ul>
-<li>Thiết lập thành công hệ thống giám sát hiệu năng sử dụng Prometheus và biểu đồ Grafana.</li>
-<li>Tách biệt hoàn toàn cấu hình triển khai và mã nguồn ứng dụng sang repository chuyên biệt.</li>
-<li>Cấu hình thành công cơ chế pull-based deployment thông qua Agent GitOps.</li>
-<li>Xác thực tính năng tự sửa lỗi (self-healing) và tính nhất quán cấu hình hệ thống.</li>
-<li>Hoàn thiện toàn bộ tài liệu dự án, mã nguồn các kho lưu trữ và báo cáo nhật ký công việc.</li>
+<li>Triển khai thành công Prometheus và Grafana để giám sát hệ thống.</li>
+<li>Xác nhận tính nhất quán triển khai cuối cùng thông qua kiểm tra GitOps.</li>
+<li>Hoàn tất timeline dự án bằng bước rà soát cuối cùng trước khi đưa vào báo cáo.</li>
 </ul>
 
 
@@ -1202,6 +1215,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1389,19 +1418,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1783656546"></script>
-    <script src="/js/perfect-scrollbar.min.js?1783656546"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1783656546"></script>
-    <script src="/js/jquery.sticky.js?1783656546"></script>
-    <script src="/js/featherlight.min.js?1783656546"></script>
-    <script src="/js/highlight.pack.js?1783656546"></script>
+    <script src="/js/clipboard.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1783692874"></script>
+    <script src="/js/jquery.sticky.js?1783692874"></script>
+    <script src="/js/featherlight.min.js?1783692874"></script>
+    <script src="/js/highlight.pack.js?1783692874"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1783656546"></script>
-    <script src="/js/learn.js?1783656546"></script>
-    <script src="/js/hugo-learn.js?1783656546"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1783692874"></script>
+    <script src="/js/learn.js?1783692874"></script>
+    <script src="/js/hugo-learn.js?1783692874"></script>
 
-    <link href="/mermaid/mermaid.css?1783656546" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1783656546"></script>
+    <link href="/mermaid/mermaid.css?1783692874" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1783692874"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

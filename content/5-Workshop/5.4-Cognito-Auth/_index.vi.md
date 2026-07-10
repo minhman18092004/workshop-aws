@@ -29,7 +29,7 @@ Dưới đây là phần **Minh chứng triển khai** cấu hình Cognito và m
    - Đảm bảo **TẮT** tùy chọn **Generate client secret** (Vì Next.js Client Side component không thể bảo mật Client Secret ở phía client).
 6. Nhấn **Create user pool** và đợi vài giây. Sau khi hoàn thành, sao chép các thông tin **User Pool ID** và **Client ID**:
 
-![Tổng quan Cognito User Pool](/images/5.4_1.png)
+![Tổng quan Cognito User Pool](/images/5-Workshop/5.4-S3-onprem/cognito_overview.png)
 
 ---
 
@@ -100,4 +100,4 @@ async function handleConfirmSignUp(email, verificationCode) {
 
 Khi chạy thử nghiệm giao diện đăng ký, bạn sẽ nhận được thông báo mã OTP gửi thành công và kích hoạt tài khoản Cognito:
 
-![Xác thực OTP Cognito thành công](/images/5.4_2.png)
+![Xác thực OTP Cognito thành công](/images/5-Workshop/5.4-S3-onprem/cognito_success_code.png)

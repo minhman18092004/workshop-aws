@@ -16,7 +16,7 @@ weight: 1
 
 Dưới đây là sơ đồ kiến trúc hệ thống thực tế của dự án, được thiết kế theo mô hình đám mây lai (Hybrid Cloud) kết hợp giữa AWS Cloud và máy chủ DigitalOcean:
 
-![Kiến trúc Hybrid Cloud NovaTech](/images/2-Proposal/novatech_aws_do_mvp_with_ai_chatbot.svg)
+![Kiến trúc Hybrid Cloud NovaTech](/images/2-Proposal/novatech_aws_do_mvp_with_ai_chatbot.drawio.png)
 
 ---
 

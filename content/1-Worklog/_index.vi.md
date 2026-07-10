@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+ 
 
 **Trong trang này**, bạn sẽ tìm thấy nhật ký công việc 12 tuần ghi lại quá trình thiết kế, triển khai và vận hành nền tảng **eCommerce NovaTech**. Trong suốt 12 tuần, tiến trình dự án được chia thành 5 giai đoạn phát triển chính:
 

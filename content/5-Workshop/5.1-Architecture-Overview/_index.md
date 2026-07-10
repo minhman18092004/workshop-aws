@@ -16,7 +16,7 @@ weight: 1
 
 Below is the actual system architecture diagram of the project, designed using a Hybrid Cloud model combining AWS Cloud services with a DigitalOcean virtual private server:
 
-![NovaTech Hybrid Cloud Architecture](/images/novatech_aws_do_mvp_with_ai_chatbot.drawio.png)
+![NovaTech Hybrid Cloud Architecture](/images/2-Proposal/novatech_aws_do_mvp_with_ai_chatbot.drawio.png)
 
 ---
 

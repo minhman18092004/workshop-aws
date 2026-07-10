@@ -15,8 +15,8 @@ Sau khi hoàn thành thử nghiệm và chụp ảnh báo cáo, bạn cần th�
 4. Bỏ tích chọn mục **Create final snapshot** (tạo bản sao lưu cuối cùng) và xác nhận đồng ý xóa.
 5. Gõ chữ `delete me` vào ô xác nhận để tiến hành xóa database.
 
-![Xác nhận xóa RDS Database](/images/5.7_1.png)
-![Trạng thái đang xóa RDS Database](/images/5.7_2.png)
+![Xác nhận xóa RDS Database](/images/5-Workshop/5.6-Cleanup/rds_delete_confirm.png)
+![Trạng thái đang xóa RDS Database](/images/5-Workshop/5.6-Cleanup/rds_delete.png)
 
 
 #### 2. Xóa các S3 Buckets
@@ -25,14 +25,14 @@ Sau khi hoàn thành thử nghiệm và chụp ảnh báo cáo, bạn cần th�
    - Bạn cần nhấn chọn bucket đó và nhấn nút **Empty** để xóa sạch các tệp tin lưu trữ bên trong trước.
    - Nhập `permanently delete` để xác nhận dọn dẹp đối tượng.
 
-     ![Xác nhận dọn dẹp S3 Bucket](/images/5.7_3.png)
-     ![Dọn dẹp S3 Bucket thành công](/images/5.7_4.png)
+     ![Xác nhận dọn dẹp S3 Bucket](/images/5-Workshop/5.6-Cleanup/s3_empty_confirm.png)
+     ![Dọn dẹp S3 Bucket thành công](/images/5-Workshop/5.6-Cleanup/s3_empty_success.png)
 
    - Quay lại trang danh sách buckets, chọn bucket và nhấn nút **Delete**.
    - Nhập tên của bucket để xác nhận xóa vĩnh viễn.
 
-     ![Xác nhận xóa S3 Bucket](/images/5.7_5.png)
-     ![Xóa S3 Bucket thành công](/images/5.7_6.png)
+     ![Xác nhận xóa S3 Bucket](/images/5-Workshop/5.6-Cleanup/s3_delete_confirm.png)
+     ![Xóa S3 Bucket thành công](/images/5-Workshop/5.6-Cleanup/s3_delete_success.png)
 
 
 #### 3. Xóa Amazon Cognito User Pool
@@ -40,8 +40,8 @@ Sau khi hoàn thành thử nghiệm và chụp ảnh báo cáo, bạn cần th�
 2. Chọn Pool `novatech-user-pool`.
 3. Chọn nút **Delete user pool** ở góc phải và làm theo hướng dẫn xác nhận xóa để hủy bỏ hệ thống định danh người dùng.
 
-   ![Xác nhận xóa Cognito User Pool](/images/5.7_7.png)
-   ![Xóa Cognito User Pool thành công](/images/5.7_8.png)
+   ![Xác nhận xóa Cognito User Pool](/images/5-Workshop/5.6-Cleanup/cognito_delete_confirm.png)
+   ![Xóa Cognito User Pool thành công](/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png)
 
 
 #### 4. Vô hiệu hóa và xóa CloudFront Distribution
@@ -50,16 +50,16 @@ Sau khi hoàn thành thử nghiệm và chụp ảnh báo cáo, bạn cần th�
 2. Chọn Distribution đã thiết lập cho S3.
 3. Nhấp chọn nút **Disable** và xác nhận để vô hiệu hóa cổng phân phối này trước khi tiến hành xóa:
 
-   ![Vô hiệu hóa CloudFront Distribution](/images/5.7_9.png)
+   ![Vô hiệu hóa CloudFront Distribution](/images/5-Workshop/5.6-Cleanup/cloudfront_disable_distribution.png)
 
 4. Khi trạng thái phân phối đã được vô hiệu hóa thành công, bạn sẽ nhận được thông báo sẵn sàng xóa:
 
-   ![Trạng thái vô hiệu hóa hoàn tất](/images/5.7_10.png)
+   ![Trạng thái vô hiệu hóa hoàn tất](/images/5-Workshop/5.6-Cleanup/cloudfront_disabled_status.png)
 
 5. Tích chọn Distribution, nhấn nút **Delete** và chọn **Delete** trên popup xác nhận để gỡ bỏ hoàn toàn:
 
-   ![Xác nhận xóa Distribution](/images/5.7_11.png)
-   ![Xóa Distribution thành công](/images/5.7_12.png)
+   ![Xác nhận xóa Distribution](/images/5-Workshop/5.6-Cleanup/cloudfront_delete_distribution_confirm.png)
+   ![Xóa Distribution thành công](/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png)
 
 
 

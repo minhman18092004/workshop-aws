@@ -29,7 +29,7 @@ Below is the **Implementation Proof** detailing Cognito configuration and Fronte
    - Ensure the **Generate client secret** option is **OFF** (Next.js Client Side components cannot securely store secrets).
 6. Click **Create user pool**. Once completed, copy the **User Pool ID** and **Client ID**:
 
-![Cognito User Pool Overview](/images/5.4_1.png)
+![Cognito User Pool Overview](/images/5-Workshop/5.4-S3-onprem/cognito_overview.png)
 
 ---
 
@@ -100,4 +100,4 @@ async function handleConfirmSignUp(email, verificationCode) {
 
 When testing the signup UI, you will receive a successful OTP notification activating the Cognito account:
 
-![Cognito OTP Verification Success](/images/5.4_2.png)
+![Cognito OTP Verification Success](/images/5-Workshop/5.4-S3-onprem/cognito_success_code.png)

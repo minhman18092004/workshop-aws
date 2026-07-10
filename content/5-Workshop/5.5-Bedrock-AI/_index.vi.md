@@ -22,7 +22,7 @@ Mặc định, các mô hình Generative AI trên Bedrock bị tắt vì lý do 
 4. Tìm mô hình **Anthropic Claude 3** (ví dụ: Claude 3 Haiku) và tích chọn.
 5. Nhấn **Request model access** và đợi hệ thống phê duyệt (thường mất từ 1 - 5 phút). Trạng thái sẽ chuyển thành **Access granted**:
 
-![Yêu cầu quyền truy cập Claude 3 trên Bedrock](/images/5.5_1.png)
+![Yêu cầu quyền truy cập Claude 3 trên Bedrock](/images/5-Workshop/5.5-Policy/bedrock_model_access.png)
 
 ---
 

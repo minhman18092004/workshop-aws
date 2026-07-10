@@ -28,7 +28,7 @@ Below is the **Implementation Proof** for configuring Amazon RDS PostgreSQL:
    - For **Public access**, select **No** (Only allow internal access and traffic originating from specified Security Groups for security).
 7. Click **Create database** and wait for the status to change to Available. Once created, you will see the Endpoint & Port details:
 
-![RDS Endpoint Details](/images/5.2_1.png)
+![RDS Endpoint Details](/images/5-Workshop/5.2-Prerequisite/rds_endpoint_details.png)
 
 ---
 
@@ -39,8 +39,8 @@ To ensure safety, we only allow the Spring Boot application server to connect to
    - **Type**: `PostgreSQL` (Port 5432)
    - **Source**: Select the static IP address or Custom Security Group of the App Server (DigitalOcean Server IP). 
 
-![RDS Security Group Configuration](/images/5.2_2.png)
-![Security Group Rule Details](/images/5.2_3.png)
+![RDS Security Group Configuration](/images/5-Workshop/5.2-Prerequisite/rds_security_groups.png)
+![Security Group Rule Details](/images/5-Workshop/5.2-Prerequisite/novatech_db_security_group.png)
 
 ---
 

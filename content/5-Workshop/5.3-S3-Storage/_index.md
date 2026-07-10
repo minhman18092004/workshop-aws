@@ -22,7 +22,7 @@ To ensure that resources running inside the AWS private network (e.g. backend ap
 1. Use the VPC wizard on the AWS Console to create a VPC automatically.
 2. The wizard will configure subnets, internet gateway, route tables, and automatically attach an **S3 Gateway Endpoint** to the internal route tables:
 
-![VPC and S3 Endpoint Creation](/images/5.3_1.png)
+![VPC and S3 Endpoint Creation](/images/5-Workshop/5.3-S3-vpc/vpc_creation_wizard.png)
 
 ---
 
@@ -35,7 +35,7 @@ To ensure that resources running inside the AWS private network (e.g. backend ap
 3. Under **Block Public Access settings for this bucket**: Keep **Block all public access** enabled (Ensuring security by only allowing CloudFront access).
 4. Click **Create bucket**.
 
-![S3 Buckets List](/images/5.3_2.png)
+![S3 Buckets List](/images/5-Workshop/5.3-S3-vpc/s3_buckets_list.png)
 
 ---
 
@@ -48,18 +48,18 @@ To allow users to view product images at high speeds while keeping the S3 bucket
    - For **Origin access**, select **Origin access control settings (recommended)**.
    - Click **Create new OAC** to generate a new control configuration.
 
-   ![Configure CloudFront OAC](/images/5.3_3.png)
+   ![Configure CloudFront OAC](/images/5-Workshop/5.3-S3-vpc/cloudfront_oac_config.png)
 
 2. **Update S3 Bucket Policy:**
    - Once the Distribution is created, click **Copy policy** on the prompt banner to copy the JSON Policy.
    - Go to S3 Bucket -> **Permissions** tab -> **Bucket Policy** section, click **Edit**, and paste the copied JSON to grant read permissions (`s3:GetObject`) to the CloudFront Service Principal:
 
-   ![S3 Bucket Policy for CloudFront](/images/5.3_4.png)
+   ![S3 Bucket Policy for CloudFront](/images/5-Workshop/5.3-S3-vpc/cloudfront_s3_policy.png)
 
 3. **Verify Distribution Deployment:**
    - Wait for the deployment to finish (Status changes to Available). You will use this **Distribution domain name** to retrieve images:
 
-   ![Distribution Successfully Configured](/images/5.3_5.png)
+   ![Distribution Successfully Configured](/images/5-Workshop/5.3-S3-vpc/cloudfront_distribution_success.png)
 
 ---
 

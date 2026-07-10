@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.164.0">
@@ -15,21 +15,21 @@
     <title>5.7. Resource Cleanup :: Internship Report</title>
 
     
-    <link href="/css/nucleus.css?1783658188" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1783658188" rel="stylesheet">
-    <link href="/css/hybrid.css?1783658188" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1783658188" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1783658188" rel="stylesheet">
-    <link href="/css/auto-complete.css?1783658188" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1783658188" rel="stylesheet">
-    <link href="/css/theme.css?1783658188" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1783658188" rel="stylesheet">
+    <link href="/css/nucleus.css?1783692874" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1783692874" rel="stylesheet">
+    <link href="/css/hybrid.css?1783692874" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1783692874" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1783692874" rel="stylesheet">
+    <link href="/css/auto-complete.css?1783692874" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1783692874" rel="stylesheet">
+    <link href="/css/theme.css?1783692874" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1783692874" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1783658188" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1783692874" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1783658188"></script>
+    <script src="/js/jquery-3.3.1.min.js?1783692874"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1783658188"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1783658188"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1783692874"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1783692874"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/";
+        var baseurl = "https:\/\/main.d3dnrycpt9rkh6.amplifyapp.com\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1783658188"></script>
+<script type="text/javascript" src="/js/search.js?1783692874"></script>
  
   </div>
 
@@ -418,6 +418,24 @@
   </a>
    
 </li>
+    
+            
+<li
+  data-nav-id="/4-eventparticipated/4.3-even3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="/4-eventparticipated/4.3-even3/">
+     <b> 4.3. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
      
   </ul>
   
@@ -640,7 +658,7 @@
                        
                 <option
                   id="en"
-                  value="http://localhost:1313/5-workshop/5.7-cleanup/"
+                  value="/5-workshop/5.7-cleanup/"
                   selected
                 >
                   English
@@ -648,7 +666,7 @@
                             
                 <option
                   id="vi"
-                  value="http://localhost:1313/vi/5-workshop/5.7-cleanup/"
+                  value="/vi/5-workshop/5.7-cleanup/"
                 >
                   Tiếng Việt
                 </option>
@@ -794,8 +812,8 @@
 <li>Uncheck the option to <strong>Create final snapshot</strong> and confirm deletion.</li>
 <li>Enter <code>delete me</code> in the confirmation field to proceed with the deletion.</li>
 </ol>
-<p><img src="/images/5.7_1.png" alt="RDS Database Deletion Confirmation">
-<img src="/images/5.7_2.png" alt="RDS Database Deleting Status"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/rds_delete_confirm.png" alt="RDS Database Deletion Confirmation">
+<img src="/images/5-Workshop/5.6-Cleanup/rds_delete.png" alt="RDS Database Deleting Status"></p>
 <h4 id="2-delete-s3-buckets">2. Delete S3 Buckets</h4>
 <ol>
 <li>Open the <strong>Amazon S3 $\rightarrow$ Buckets</strong> console.</li>
@@ -806,16 +824,16 @@
 </li>
 <li>
 <p>Type <code>permanently delete</code> to acknowledge emptying objects.</p>
-<p><img src="/images/5.7_3.png" alt="Confirm Emptying S3 Bucket">
-<img src="/images/5.7_4.png" alt="S3 Bucket Emptied Successfully"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/s3_empty_confirm.png" alt="Confirm Emptying S3 Bucket">
+<img src="/images/5-Workshop/5.6-Cleanup/s3_empty_success.png" alt="S3 Bucket Emptied Successfully"></p>
 </li>
 <li>
 <p>Return to the Buckets list, select the bucket, and click <strong>Delete</strong>.</p>
 </li>
 <li>
 <p>Enter the name of the bucket to confirm permanent deletion.</p>
-<p><img src="/images/5.7_5.png" alt="Confirm S3 Bucket Deletion">
-<img src="/images/5.7_6.png" alt="S3 Bucket Deleted Successfully"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/s3_delete_confirm.png" alt="Confirm S3 Bucket Deletion">
+<img src="/images/5-Workshop/5.6-Cleanup/s3_delete_success.png" alt="S3 Bucket Deleted Successfully"></p>
 </li>
 </ul>
 </li>
@@ -830,8 +848,8 @@
 </li>
 <li>
 <p>Click <strong>Delete user pool</strong> in the top right corner and follow the instructions to confirm deletion.</p>
-<p><img src="/images/5.7_7.png" alt="Confirm Cognito User Pool Deletion">
-<img src="/images/5.7_8.png" alt="Cognito User Pool Deleted Successfully"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_confirm.png" alt="Confirm Cognito User Pool Deletion">
+<img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png" alt="Cognito User Pool Deleted Successfully"></p>
 </li>
 </ol>
 <h4 id="4-disable-and-delete-cloudfront-distribution">4. Disable and Delete CloudFront Distribution</h4>
@@ -845,16 +863,16 @@
 </li>
 <li>
 <p>Click the <strong>Disable</strong> button and confirm to take the distribution offline:</p>
-<p><img src="/images/5.7_9.png" alt="Disable CloudFront Distribution"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_disable_distribution.png" alt="Disable CloudFront Distribution"></p>
 </li>
 <li>
 <p>Once the distribution status is successfully disabled, you will see a notification indicating it can be deleted:</p>
-<p><img src="/images/5.7_10.png" alt="Distribution Disabled Status"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_disabled_status.png" alt="Distribution Disabled Status"></p>
 </li>
 <li>
 <p>Select the distribution, click <strong>Delete</strong>, and confirm on the popup to permanently delete it:</p>
-<p><img src="/images/5.7_11.png" alt="Confirm CloudFront Distribution Deletion">
-<img src="/images/5.7_12.png" alt="CloudFront Distribution Deleted Successfully"></p>
+<p><img src="/images/5-Workshop/5.6-Cleanup/cloudfront_delete_distribution_confirm.png" alt="Confirm CloudFront Distribution Deletion">
+<img src="/images/5-Workshop/5.6-Cleanup/cognito_delete_success.png" alt="CloudFront Distribution Deleted Successfully"></p>
 </li>
 </ol>
 
@@ -1202,6 +1220,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1397,19 +1431,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1783658188"></script>
-    <script src="/js/perfect-scrollbar.min.js?1783658188"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1783658188"></script>
-    <script src="/js/jquery.sticky.js?1783658188"></script>
-    <script src="/js/featherlight.min.js?1783658188"></script>
-    <script src="/js/highlight.pack.js?1783658188"></script>
+    <script src="/js/clipboard.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.min.js?1783692874"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1783692874"></script>
+    <script src="/js/jquery.sticky.js?1783692874"></script>
+    <script src="/js/featherlight.min.js?1783692874"></script>
+    <script src="/js/highlight.pack.js?1783692874"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1783658188"></script>
-    <script src="/js/learn.js?1783658188"></script>
-    <script src="/js/hugo-learn.js?1783658188"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1783692874"></script>
+    <script src="/js/learn.js?1783692874"></script>
+    <script src="/js/hugo-learn.js?1783692874"></script>
 
-    <link href="/mermaid/mermaid.css?1783658188" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1783658188"></script>
+    <link href="/mermaid/mermaid.css?1783692874" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1783692874"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

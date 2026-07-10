@@ -38,7 +38,7 @@ The core technical highlight is the integration of an **AI Chatbot** powered by 
 
 Below is the detailed architecture diagram for the **NovaTech** E-Commerce platform:
 
-![NovaTech Architecture](/images/novatech_aws_do_mvp_with_ai_chatbot.drawio.png)
+![NovaTech Architecture](/images/2-Proposal/novatech_aws_do_mvp_with_ai_chatbot.drawio.png)
 
 #### Core Components:
 

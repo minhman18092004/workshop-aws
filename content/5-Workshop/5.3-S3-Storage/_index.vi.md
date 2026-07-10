@@ -22,7 +22,7 @@ Dưới đây là phần **Minh chứng triển khai** cấu hình hạ tầng l
 1. Sử dụng trình hướng dẫn khởi tạo VPC trên AWS Console để tạo VPC tự động.
 2. Trình khởi tạo sẽ thiết lập các Subnet, Internet Gateway, Bảng định tuyến (Route tables) và tự động tạo/liên kết một **S3 Gateway Endpoint** cho bảng định tuyến nội bộ:
 
-![Khởi tạo VPC và S3 Endpoint](/images/5.3_1.png)
+![Khởi tạo VPC và S3 Endpoint](/images/5-Workshop/5.3-S3-vpc/vpc_creation_wizard.png)
 
 ---
 
@@ -35,7 +35,7 @@ Dưới đây là phần **Minh chứng triển khai** cấu hình hạ tầng l
 3. Tại mục **Block Public Access settings for this bucket**: Giữ nguyên trạng thái **Block all public access** (Bảo mật tuyệt đối, chỉ cho phép CloudFront truy cập).
 4. Nhấn **Create bucket**.
 
-![Danh sách S3 Buckets](/images/5.3_2.png)
+![Danh sách S3 Buckets](/images/5-Workshop/5.3-S3-vpc/s3_buckets_list.png)
 
 ---
 
@@ -48,18 +48,18 @@ Dưới đây là phần **Minh chứng triển khai** cấu hình hạ tầng l
    - Tại phần **Origin access**: Chọn **Origin access control settings (recommended)**.
    - Nhấn **Create new OAC** để tạo một cấu hình OAC mới.
 
-   ![Cấu hình CloudFront OAC](/images/5.3_3.png)
+   ![Cấu hình CloudFront OAC](/images/5-Workshop/5.3-S3-vpc/cloudfront_oac_config.png)
 
 2. **Cập nhật Bucket Policy cho S3:**
    - Sau khi tạo Distribution, nhấn **Copy policy** ở thanh thông báo hướng dẫn để sao chép mã chính sách (JSON Policy).
    - Đi tới S3 Bucket -> tab **Permissions** -> mục **Bucket Policy** và chọn **Edit**, sau đó dán đoạn JSON đã sao chép để cấp quyền đọc (`s3:GetObject`) cho CloudFront Service Principal:
 
-   ![S3 Bucket Policy cho CloudFront](/images/5.3_4.png)
+   ![S3 Bucket Policy cho CloudFront](/images/5-Workshop/5.3-S3-vpc/cloudfront_s3_policy.png)
 
 3. **Xác nhận cấu hình Distribution thành công:**
    - Đợi quá trình deploy hoàn thành (Trạng thái chuyển sang Available). Bạn sẽ sử dụng **Distribution domain name** này để truy cập tài nguyên:
 
-   ![Cấu hình Distribution thành công](/images/5.3_5.png)
+   ![Cấu hình Distribution thành công](/images/5-Workshop/5.3-S3-vpc/cloudfront_distribution_success.png)
 
 ---
 

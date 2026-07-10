@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **May 10, 2026 to July 20, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.
+During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **April 20, 2026 to July 20, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.
 
 I participated in the **Workforce Bootcamp - First Cloud AI Journey** training and hands-on program, setting up AWS cloud infrastructure and developing a final course project using Terraform. Through this experience, I significantly improved my technical skills in Cloud Computing (AWS Cloud), Infrastructure as Code (IaC), analytical skills, report writing, and teamwork.
 

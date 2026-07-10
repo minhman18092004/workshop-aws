@@ -19,7 +19,7 @@ pre: " <b> 1.12. </b> "
 | 3   | - Deploy Prometheus and Grafana and connect the backend metrics source.<br>- Create the base monitoring layer for the whole system. | 07/08/2026 | 07/08/2026 | content/1-Worklog/1.12-Week12/ |
 | 4   | - Build Grafana panels for JVM memory, threads, and HTTP request traffic.<br>- Check whether the dashboard reflects real runtime behavior. | 07/09/2026 | 07/09/2026 | content/1-Worklog/1.12-Week12/ |
 | 5   | - Review GitOps synchronization and confirm that deployment changes still match the Git state.<br>- Check configuration consistency after finishing the monitoring setup. | 07/10/2026 | 07/10/2026 | content/1-Worklog/1.12-Week12/ |
-| 6   | - Perform the final system check, collect the last proof points, and prepare the report notes.<br>- Result: the project was closed with monitoring and deployment checks completed. | 07/13/2026 | 07/13/2026 | content/1-Worklog/1.12-Week12/ |
+| 6   | - Perform the final system check, collect the last proof points, and prepare the report notes.<br>- Result: the project was closed with monitoring and deployment checks completed. | 07/10/2026 | 07/10/2026 | content/1-Worklog/1.12-Week12/ |
 
 ### Week 12 Achievements:
 

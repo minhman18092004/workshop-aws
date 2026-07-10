@@ -8,5 +8,6 @@ pre: " <b> 3. </b> "
 
 
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 1 - REDUCING LATENCY FROM SECONDS TO MILLISECONDS: THE ART OF CACHING ON AWS](3.1-Blog1/)
+
+This blog shares practical experience on optimizing system latency using Amazon ElastiCache (Redis/Memcached) to completely offload traditional Databases (RDS/SQL) from seconds to milliseconds.

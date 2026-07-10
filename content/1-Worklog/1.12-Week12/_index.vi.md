@@ -20,7 +20,7 @@ pre: " <b> 1.12. </b> "
 | 3   | - Triển khai Prometheus và Grafana rồi kết nối nguồn metrics từ backend.<br>- Tạo lớp giám sát cơ bản cho toàn hệ thống. | 08/07/2026 | 08/07/2026 | content/1-Worklog/1.12-Week12/ |
 | 4   | - Xây dựng các panel Grafana cho bộ nhớ JVM, thread và lưu lượng HTTP request.<br>- Kiểm tra dashboard có phản ánh đúng hành vi runtime hay không. | 09/07/2026 | 09/07/2026 | content/1-Worklog/1.12-Week12/ |
 | 5   | - Rà soát đồng bộ GitOps và xác nhận thay đổi triển khai vẫn khớp với trạng thái Git.<br>- Kiểm tra tính nhất quán cấu hình sau khi hoàn tất giám sát. | 10/07/2026 | 10/07/2026 | content/1-Worklog/1.12-Week12/ |
-| 6   | - Thực hiện kiểm tra hệ thống cuối cùng, thu thập các bằng chứng cuối và chuẩn bị ghi chú cho báo cáo.<br>- Kết quả: dự án được khép lại với các bước kiểm tra giám sát và triển khai đã hoàn tất. | 13/07/2026 | 13/07/2026 | content/1-Worklog/1.12-Week12/ |
+| 6   | - Thực hiện kiểm tra hệ thống cuối cùng, thu thập các bằng chứng cuối và chuẩn bị ghi chú cho báo cáo.<br>- Kết quả: dự án được khép lại với các bước kiểm tra giám sát và triển khai đã hoàn tất. | 10/07/2026 | 10/07/2026 | content/1-Worklog/1.12-Week12/ |
 
 ### Kết quả đạt được tuần 12:
 
